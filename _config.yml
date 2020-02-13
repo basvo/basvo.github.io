@@ -17,9 +17,10 @@ title: Bas van Ombergen
 email: ombergen@gmail.com
 description: ""#>- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://basvo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: basvo
 github_username:  basvo
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Build settings
 markdown: kramdown
