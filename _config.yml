@@ -21,6 +21,7 @@ url: "https://basvo.github.io" # the base hostname & protocol for your site, e.g
 twitter_username: basvo
 github_username:  basvo
 show_excerpts: true # set to true to show excerpts on the homepage
+excerpt_separator: "<!-- more -->"
 
 # Build settings
 markdown: kramdown
