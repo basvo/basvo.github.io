@@ -5,8 +5,6 @@ date:   2020-03-03 11:16:00 +0100
 categories: azure messaging events
 ---
 
-## Messages or Events
-
 Azure offers the following services for handling messages and events:
 
 - Event Grid

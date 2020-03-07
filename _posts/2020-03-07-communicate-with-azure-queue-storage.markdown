@@ -5,8 +5,6 @@ date:   2020-03-07 10:24:00 +0100
 categories: azure queue storage
 ---
 
-## Communicate between applications with Azure Queue Storage
-
 A storage queue is a high-performance message buffer that can act as a broker between two components.
 
 The use of storage queues is interesting in scenarios that can have spikes in load. At times of high demand, the queue will grow in length, but no messages will be lost. When demand drops to normal levels the application will catch up by working through the queue backlog.
