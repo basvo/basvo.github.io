@@ -87,7 +87,7 @@ CloudQueue queue = client.GetQueueReference("myqueue");
 
 A common pattern is that the sender application should always be responsible for creating the queue. This keeps your application more self-contained and less dependent on administrative set-up.
 
-The client library exposes a `CreateIfNotExistsAsync` method that will create the queue if it does not exist, or return `false` if it already exists.
+The client library exposes a `CreateIfNotExistsAsync` method that will create the queue if it does not exist, or return `false` if it already exists:
 
 ```c#
 CloudQueue queue;
@@ -95,7 +95,7 @@ CloudQueue queue;
 await queue.CreateIfNotExistsAsync();
 ```
 
-To send a message, you can use the `CloudQueueMessage` object.
+To send a message, you can use the `CloudQueueMessage` object:
 
 ```c#
 var message = new CloudQueueMessage("your message here");
