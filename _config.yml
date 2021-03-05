@@ -25,7 +25,7 @@ excerpt_separator: "<!-- more -->"
 
 # Build settings
 markdown: kramdown
-remote_theme: thelehhman/plainwhite-jekyll
+remote_theme: samarsault/plainwhite-jekyll
 
 plugins:
   - jekyll-feed
@@ -34,6 +34,7 @@ plainwhite:
   name: Bas van Ombergen
   tagline: Integration
   date_format: "%b %-d, %Y"
+  portfolio_image:  "assets/portfolio.png" 
 
   navigation:
     - title: Home
