@@ -32,7 +32,7 @@ plugins:
 
 plainwhite:
   name: Bas van Ombergen
-  tagline: Cloud
+  tagline: Integration
   date_format: "%b %-d, %Y"
 
   navigation:

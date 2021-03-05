@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Remove AzureRm before installing Az module"
-date:   2020-03-05 20:50:00 +0100
+date:   2021-03-05 20:50:00 +0100
 categories: azure azurerm powershell
 ---
 
