@@ -7,7 +7,7 @@ categories: azure azurerm powershell
 
 Installing the `Az` module on a machine that already contains `AzureRm` is not supported. 
 
-![image-20210305203623990](../assets/image-20210305203623990.png)
+![image-20210305203623990](/assets/image-20210305203623990.png)
 
 There are a couple of steps needed to remove `AzureRm`. I will describe them below.
 <!-- more -->
@@ -26,7 +26,7 @@ Get-Module -ListAvailable | Where {$_.Name -like 'AzureRM.*'}
 
 This will probably give a result like this:
 
-![image-20210305203939231](../assets/image-20210305203939231.png)
+![image-20210305203939231](/assets/image-20210305203939231.png)
 
 Remove all the remaining modules for `AzureRM` by using the following command:
 
