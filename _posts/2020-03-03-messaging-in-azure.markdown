@@ -12,7 +12,7 @@ Azure offers the following services for handling messages and events:
 - Service Bus
 
 At first sight it can be difficult to choose the right service for your scenario. To better determine what service to use, you must first know what the difference is between messages and events.
-
+<!-- more -->
 ### Messages
 
 When we look at distributed applications, messages have the following characteristics:

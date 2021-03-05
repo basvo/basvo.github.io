@@ -9,7 +9,9 @@ Installing the `Az` module on a machine that already contains `AzureRm` is not s
 
 ![image-20210305203623990](../assets/image-20210305203623990.png)
 
-We should remove `AzureRm` by executing the following commands:
+There are a couple of steps needed to remove `AzureRm`. I will describe them below.
+<!-- more -->
+We should first execute the following commands:
 
 ```powershell
 uninstall-module Azure

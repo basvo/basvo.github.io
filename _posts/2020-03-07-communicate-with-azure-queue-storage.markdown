@@ -14,7 +14,7 @@ The use of storage queues is interesting in scenarios that can have spikes in lo
 Azure Queue storage is an Azure service that implements cloud-based queues. Each queue maintains a list of messages. A queue can be accessed by using a REST API or a client library. You can have one or more *sender* components, and one or more *receiver* components. Sender components add the messages to the queue. Receiver components retrieve the messages from the front of the queue for processing. This is also called FIFO (First In, First Out).
 
 ![An illustration showing a high-level architecture of Azure Queue storage](https://docs.microsoft.com/en-us/learn/modules/communicate-between-apps-with-azure-queue-storage/media/2-queue-overview.png)
-
+<!-- more -->
 After the receiver gets a message, that message remains in the queue but is invisible for 30 seconds. If the receiver crashes or experiences a power failure during processing, then it will never delete the message from the queue. After 30 seconds, the message will reappear in the queue and another instance of the receiver can process it to completion.
 
 Pricing is based on queue size and number of operations. Charges are also incurred for adding and deleting messages. See [Azure Queue storage pricing](https://azure.microsoft.com/pricing/details/storage/queues/) for details.
